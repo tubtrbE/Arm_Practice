@@ -114,6 +114,8 @@ int main(void)
 	while (1)
 	{
 
+
+		//Q_Now[i] => !Q_Now[i] 으로 변경시 하향 카운터 적용
 		if (HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_13) == 1) {
 			int mask = 0x0001;
 			for (int i = 0; i < 4; i++) {
