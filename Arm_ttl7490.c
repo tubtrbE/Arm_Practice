@@ -279,7 +279,7 @@ int ttl7490(int cp_type, int cp_before, int cp_now, int Q_Before[], int Q_Now[])
 		k[1] = 1;
 	}
 
-	else if (Q_Before[0] == 1 && Q_Before[3] == 0) {
+	else if (Q_Before[0] == 1 && Q_Before[3] == 1) {
 		c = 1;
 	}
 	if (Q_Before[1] == 1 &&
