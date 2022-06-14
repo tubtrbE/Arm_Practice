@@ -1,6 +1,5 @@
 // 모드를 설정하는 유저 버튼의 중요 부분만을 편집한 것입니다.
 
-
 // 첫번째 while loop 는 main loop 이고 두번째 while loop 가 
 // 인터럽트 발생시 작동하는 while loop 입니다.
 while (1) {
@@ -37,7 +36,7 @@ while (1) {
 }
 
 
-
+// 인터럽트 call back 부분이다.
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
 
